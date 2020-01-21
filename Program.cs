@@ -10,9 +10,9 @@ namespace EmployeeInformations
             Employee e = new Employee();
 
             Console.WriteLine("Digite os dados do funcionario: ");
-            Console.Write("Nome:");
+            Console.Write("Nome => ");
             e.Name = Console.ReadLine();
-            Console.Write("Salario: ");
+            Console.Write("Salario => ");
             e.Wage = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Imposto: ");
             e.Duty = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
